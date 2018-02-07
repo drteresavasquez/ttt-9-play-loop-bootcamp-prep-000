@@ -35,7 +35,7 @@ def turn(board)
   end
 end
 
-def play(arr)
+def play(kind_of(arr))
   count = 0 
   until count == 9
     turn(arr)
